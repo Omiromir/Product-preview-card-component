@@ -109,6 +109,11 @@ main {
     cursor: pointer;
     background-color: var(--Dark-cyan);
     color: var(--White);
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: hsl(158, 62%, 20%);
 }
 
 @media (min-width: 37.5rem) {
